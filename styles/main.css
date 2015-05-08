@@ -1,0 +1,34 @@
+header {
+    background: url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1.jpg");
+    background-position: 80% 55%;
+    max-width: 1300px;
+    height: 523px;
+}
+
+/*.header-main-text {
+    max-width: 902px;
+    margin-left: 163px;
+    margin-right: 161px;
+    margin-top: 233px;
+}*/
+
+header > h1 {
+    position: relative;
+    color: white;
+    font-size: 81px;
+    font-family: "Oswald", sans-serif;
+    max-width: 902px;
+    left: 197px;
+    right: 201px;
+    top: 233px;
+}
+
+.hnavlist {
+    display: inline;
+    float: right;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
