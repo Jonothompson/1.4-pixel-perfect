@@ -210,7 +210,6 @@ margin-left: 4px;
     background-size: cover;
     background-position: center center;
     width: 100%;
-
 }
 
 /****************
@@ -246,6 +245,10 @@ aside {
 .social-media-nav {
     margin-top: 3px;
     font-family: "Open Sans", sans-serif;
+}
+
+.social-media-nav:hover {
+    color: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85));
 }
 
 .rocketsurf {
@@ -353,7 +356,17 @@ hr {
 }
 
 .inline1 a:hover {
-    color: green;
+    color: rgba(17, 117, 192, 0.85);
+}
+
+.inline1 a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 285px;
+    font-size: 29px;
+    margin-left: 18px;
+    color: black;
 }
 
 .inline2 {
@@ -368,7 +381,17 @@ hr {
 }
 
 .inline2 a:hover {
-    color: green;
+    color: rgba(17, 117, 192, 0.85);
+}
+
+.inline2 a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 285px;
+    font-size: 29px;
+    margin-left: 18px;
+    color: black;
 }
 
 .inline3 {
@@ -383,7 +406,17 @@ hr {
 }
 
 .inline3 a:hover {
-    color: green;
+    color: rgba(17, 117, 192, 0.85);
+}
+
+.inline3 a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 251px;
+    left: 18px;
+    font-size: 29px;
+    color: black;
 }
 
 .inline4 {
@@ -398,7 +431,17 @@ hr {
 }
 
 .inline4 a:hover {
-    color: green;
+    color: rgba(17, 117, 192, 0.85);
+}
+
+.inline4 a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 285px;
+    font-size: 29px;
+    margin-left: 18px;
+    color: black;
 }
 
 footer {
