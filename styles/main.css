@@ -301,83 +301,91 @@ hr {
     clear: left;
 }
 
-.popdivs {
-    max-width: 1300px;
-}
-
-.inline1 > img {
-    position: relative;
-    max-width: 322px;
-    bottom: 48px;
-    height: 330px;
+.pop-divs {
+    display: inline-block;
+    width: 1300px;
     float: left;
-    background-color: #E1E7EA;
     clear: left;
+    margin-top: -46px;
+    height: 282px;
 }
 
-.inline1 > h1 {
-    position: absolute;
-    left: 15px;
-    margin-top: 351px;
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
+.pop-divs ul {
+    padding: 0;
+    margin: 0;
+    display: block;
 }
 
-.inline2 > img {
-    position: relative;
-    max-width: 326px;
-    bottom: 48px;
-    height: 330px;
-    float: left;
-    background-color: #E1E7EA;
+.pop-divs ul li {
+     position: relative;
+     vertical-align: bottom;
+     height: 330px;
+     max-width: 25%;
+     display: inline-block;
 }
 
-.inline2 > h1 {
-    position: absolute;
-    left: 341px;
-    margin-top: 351px;
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
+.inline1 {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/squirtle.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
 }
 
-.inline3 > img {
-    position: relative;
-    max-width: 327px;
-    bottom: 48px;
-    height: 330px;
-    float: left;
-    background-color: #E1E7EA;
+.inline1:hover {
+    background-image: url("../images/squirtle.jpeg");
 }
 
-.inline3 > h1 {
-    position: absolute;
-    left: 670px;
-    margin-top: 316px;
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
-    width: 230px;
+.inline1 a:hover {
+    color: green;
 }
 
-.inline4 > img {
-    position: relative;
-    max-width: 325px;
-    bottom: 48px;
-    height: 330px;
-    float: left;
-    background-color: #E1E7EA;
+.inline2 {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/beers.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
 }
 
-.inline4 > h1 {
-    position: absolute;
-    left: 991px;
-    margin-top: 351px;
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
-    width: 230px;
+.inline2:hover {
+    background-image: url("../images/beers.jpg");
+}
+
+.inline2 a:hover {
+    color: green;
+}
+
+.inline3 {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/doge.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.inline3:hover {
+    background-image: url("../images/doge.jpg");
+}
+
+.inline3 a:hover {
+    color: green;
+}
+
+.inline4 {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/jakeandgunter.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.inline4:hover {
+    background-image: url("../images/jakeandgunter.jpg");
+}
+
+.inline4 a:hover {
+    color: green;
 }
 
 footer {
-    margin-top: -48px;
+    margin-top: 47px;
     float: left;
     background-color: #0B3551;
     height: 95px;
