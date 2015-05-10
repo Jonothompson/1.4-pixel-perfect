@@ -5,7 +5,7 @@
 header {
     background: url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1.jpg");
     background-position: 80% 55%;
-    max-width: 100%;
+    max-width: 1300px;
     height: 523px;
 }
 
@@ -209,6 +209,7 @@ aside {
     margin-left: 82px;
     max-width: 439px;
     float: left;
+    margin-right: 74px;
 }
 
 .anne-marie {
@@ -263,6 +264,8 @@ aside > h3 {
 .asidep {
     max-width: 278px;
     margin-top: 6px;
+    margin-bottom: 177px;
+    margin-right: 50px;
     line-height: 24px;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
@@ -271,4 +274,89 @@ aside > h3 {
 
 .asidep > span {
     text-decoration: underline;
+}
+
+/**************************
+    other areas andfooter
+**************************/
+
+hr {
+    position: relative;
+    bottom: 71px;
+    border-top: 1px solid #E1E7EA;
+    max-width: 1300px;
+}
+
+.mpp {
+    position: relative;
+    margin-top: -30px;
+    left: 360px;
+    bottom: 11px;
+    float: left;
+    text-align: center;
+    max-width: 1300px;
+    height: 146px;
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+    clear: left;
+}
+
+.popdivs {
+    max-width: 1300px;
+}
+
+.inline1 > img {
+    position: relative;
+    max-width: 322px;
+    bottom: 48px;
+    height: 330px;
+    float: left;
+    background-color: #E1E7EA;
+    clear: left;
+}
+
+.inline2 > img {
+    position: relative;
+    max-width: 326px;
+    bottom: 48px;
+    height: 330px;
+    float: left;
+    background-color: #E1E7EA;
+}
+
+.inline3 > img {
+    position: relative;
+    max-width: 327px;
+    bottom: 48px;
+    height: 330px;
+    float: left;
+    background-color: #E1E7EA;
+}
+
+.inline4 > img {
+    position: relative;
+    max-width: 325px;
+    bottom: 48px;
+    height: 330px;
+    float: left;
+    background-color: #E1E7EA;
+}
+
+footer {
+    margin-top: -48px;
+    float: left;
+    background-color: #0B3551;
+    height: 85px;
+    width: 1300px;
+    clear: left;
+}
+
+.bottom-nav {
+    float: right;
+    margin-top:39px;
+    margin-right:163px;
+    font-size: 10px;
+    color: #A3B3BE;
+    font-family: "Open Sans", sans-serif;
+
 }
