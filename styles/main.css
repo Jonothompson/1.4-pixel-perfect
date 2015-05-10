@@ -3,7 +3,7 @@
 *****************/
 
 header {
-    background: url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1.jpg");
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/wave-header.jpg");
     background-position: 80% 55%;
     max-width: 1300px;
     height: 524px;
@@ -101,6 +101,14 @@ article > h1 {
 
 .publisher {
     margin-top: 12px;
+/*     background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/jacobsmith.jpg");
+background-size: 22px 22px:
+background-position: center center;
+height: 22px;
+width: 22px;
+border-radius: 50%;
+margin-left: 4px;
+ */
 }
 
 .publisher > img {
@@ -176,7 +184,6 @@ article > h1 {
 
 .b3 {
     width: 154px;
-    background-color:#196EB1;
 }
 
 .fa {
@@ -196,6 +203,14 @@ article > h1 {
     background-color: #5E686F;
     color: white;
     text-align: center;
+}
+
+.readicon:hover {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85));
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+
 }
 
 /****************
@@ -235,14 +250,16 @@ aside {
 
 .rocketsurf {
     margin-top: 54px;
-}
-
-.rocketsurf > img {
+    background: linear-gradient(rgba(17, 117, 192, 0.85), rgba(17, 117, 192, 0.85)), url("../images/rocket-surf.jpg");
     width: 278px;
     height: 300px;
+    background-size: 278px 300px;
+    background-position: center center;
 }
 
 .rocketsurf > p {
+    position: relative;
+    top: 308px;
     font-size: 14px;
     margin-left: 195px;
     margin-top: 6px;
