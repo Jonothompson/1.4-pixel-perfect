@@ -6,7 +6,7 @@ header {
     background: url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1.jpg");
     background-position: 80% 55%;
     max-width: 1300px;
-    height: 523px;
+    height: 524px;
 }
 
 .top-logo-nav {
@@ -17,33 +17,29 @@ header {
 
 .logo {
     float: left;
+    margin-left: -5px;
+    margin-top: 5px;
 }
 
-.logo > h1 {
-    width: 45px;
-    height: 45px;
-    font-size: 45px;
-    line-height: 45px;
-    margin-top: 10px;
-    font-family: "Open Sans", sans-serif;
+.logo > img {
 
 }
 
 .logo > p {
     height: 14px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 14px;
     margin-left: 14px;
-    margin-top: 25px;
-    font-family: "Oswald", sans-serif;
+    margin-top: 21px;
+    font-family: "Open Sans", sans-serif;
 
 }
 
 .main-text {
     position: relative;
     clear: left;
-    top: 155px;
-    margin-left: 197px;
+    top: 153px;
+    margin-left: 196px;
     color: white;
     font-size: 97px;
     max-width: 902px
@@ -56,9 +52,9 @@ header {
 
 .main-text h5 {
     margin-left: 300px;
-    margin-top: 10px;
+    margin-top: 1px;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     line-height: normal;
 }
@@ -66,8 +62,8 @@ header {
 .hnavlist {
     display: inline;
     float: right;
-    margin-right: 169px;
-    margin-top: 22px;
+    margin-right: 113px;
+    margin-top: 14px;
     list-style-type: none;
     font-family: "Open Sans", sans-serif;
     width: 141px;
@@ -97,6 +93,7 @@ article {
 }
 
 article > h1 {
+    margin-top: 2px;
     font-family: "Oswald", sans-serif;
     font-size: 62px;
     line-height: 64px;
@@ -137,17 +134,17 @@ article > h1 {
 
 .pcontent {
     font-family: "Open Sans", sans-serif;
-    margin-top: 35px;
+    margin-top: 33px;
     line-height: 25px;
 }
 
 .hcontent {
     font-family: "Open Sans", sans-serif;
     border-left: 2px solid #E5E5E5;
-    padding-left: 20px;
+    padding-left: 17px;
     padding-top: 20px;
-    margin-top: 39px;
-    margin-left: 5px;
+    margin-top: 47px;
+    margin-left: 6px;
     height: 35px;
     font-size: 27px;
     color: #4187BD;
@@ -155,11 +152,11 @@ article > h1 {
 
 .blog-buttons {
     float: left;
-    margin-top: 16px;
+    margin-top: 32px;
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    height: 33px;
+    height: 28px;
     background-color: #A3B3BE;
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -195,7 +192,7 @@ article > h1 {
 .readicon {
     float: left;
     width: 30px;
-    height: 33px;
+    height: 28px;
     background-color: #5E686F;
     color: white;
     text-align: center;
@@ -214,8 +211,8 @@ aside {
 
 .anne-marie {
     text-align: center;
-    margin-top: 15px;
-    margin-left: 1px;
+    margin-top: 13px;
+    margin-left: -44px;
 }
 
 .anne-marie > h2 {
@@ -283,13 +280,16 @@ aside > h3 {
 hr {
     position: relative;
     bottom: 71px;
+    border-color: #E1E7EA;
     border-top: 1px solid #E1E7EA;
     max-width: 1300px;
+    right: 381px;
+    clear: left;
 }
 
 .mpp {
     position: relative;
-    margin-top: -30px;
+    margin-top: -33px;
     left: 360px;
     bottom: 11px;
     float: left;
@@ -315,6 +315,14 @@ hr {
     clear: left;
 }
 
+.inline1 > h1 {
+    position: absolute;
+    left: 15px;
+    margin-top: 351px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
 .inline2 > img {
     position: relative;
     max-width: 326px;
@@ -322,6 +330,14 @@ hr {
     height: 330px;
     float: left;
     background-color: #E1E7EA;
+}
+
+.inline2 > h1 {
+    position: absolute;
+    left: 341px;
+    margin-top: 351px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
 }
 
 .inline3 > img {
@@ -333,6 +349,15 @@ hr {
     background-color: #E1E7EA;
 }
 
+.inline3 > h1 {
+    position: absolute;
+    left: 670px;
+    margin-top: 316px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    width: 230px;
+}
+
 .inline4 > img {
     position: relative;
     max-width: 325px;
@@ -342,13 +367,36 @@ hr {
     background-color: #E1E7EA;
 }
 
+.inline4 > h1 {
+    position: absolute;
+    left: 991px;
+    margin-top: 351px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    width: 230px;
+}
+
 footer {
     margin-top: -48px;
     float: left;
     background-color: #0B3551;
-    height: 85px;
+    height: 95px;
     width: 1300px;
     clear: left;
+}
+
+.tiy-logo {
+    margin-left: 151px;
+    max-width: 435px;
+    float: left;
+    margin-top: 13px;}
+
+.tiy-logo > p {
+    display: inline;
+    position: relative;
+    bottom: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #A3B3BE;
 }
 
 .bottom-nav {
