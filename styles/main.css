@@ -9,6 +9,10 @@ header {
     height: 524px;
 }
 
+header:hover {
+    background-image: url("../images/wave-header.jpg");
+}
+
 .top-logo-nav {
     margin-left: 141px;
     margin-right: 55px;
@@ -258,6 +262,10 @@ aside {
     height: 300px;
     background-size: 278px 300px;
     background-position: center center;
+}
+
+.rocketsurf:hover {
+    background-image: url("../images/rocket-surf.jpg");
 }
 
 .rocketsurf > p {
